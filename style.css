@@ -1,0 +1,84 @@
+body {
+    background: #f6f9fc;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*centre la calculatrice sur la page */
+.conteneur {
+    width: 320px;
+    margin: 50px auto;
+    background-color:  #1a232d;
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: #00a8ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* style de l'ecran (INPUT)*/
+#resultat {
+    width: 100%;
+    height: 50px;
+    background-color: #090d12;
+    border: 1px solid #2d3b2d48;
+    border-radius: 8px;
+    color: #00a8ff;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+/* style bouton */
+button{
+    width: 62px;
+    height: 20px;
+    margin: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #24313f;
+    color: #ffffff;
+    display: inline-block;/* permet au boutton de se mettre les uns à coter de l'autre*/
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#btn {
+    background: #00a8ff;
+}
+button[onclick="suppdernier()"]{
+    background-color: orangered;
+    color: #fff;
+}
+button[onclick="effacer()"] {
+    background-color: #3f2424;
+    color: #ff5555;
+}
+button[onclick="effacer()"]:hover{
+    background-color: #4f2e2e;
+}
+button.egale{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+button[ onclick="calculer()"]{
+    background-color: #0096e0;
+    color: #0d131a;;
+}
+button[ onclick="calculer()"]:hover{
+    background-color: #0096e0;
+    box-shadow: 0 0 15px #0096e0;
+}
